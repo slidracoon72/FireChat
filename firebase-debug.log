@@ -1,0 +1,196 @@
+[debug] [2019-10-07T08:06:49.172Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T08:06:49.175Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:firechat-rt
+[debug] [2019-10-07T08:06:49.175Z] CLI Version:   7.4.0
+[debug] [2019-10-07T08:06:49.175Z] Platform:      win32
+[debug] [2019-10-07T08:06:49.175Z] Node Version:  v10.16.1
+[debug] [2019-10-07T08:06:49.177Z] Time:          Mon Oct 07 2019 13:36:49 GMT+0530 (India Standard Time)
+[debug] [2019-10-07T08:06:49.177Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T08:06:49.190Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T08:06:49.190Z] > authorizing via signed-in user
+[debug] [2019-10-07T08:06:49.190Z] [iam] checking project vue-real-time-chat-4eb35 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-07T08:06:49.193Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-real-time-chat-4eb35:testIamPermissions  
+
+[debug] [2019-10-07T08:06:50.994Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:06:50.998Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-real-time-chat-4eb35  
+ 
+[debug] [2019-10-07T08:06:51.522Z] <<< HTTP RESPONSE 200
+[warn] !  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'vue-real-time-chat-4eb35'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-real-time-chat-4eb35/overview
+[debug] [2019-10-07T08:06:55.010Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-10-07T08:08:09.661Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T08:08:09.664Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:firechat-rt
+[debug] [2019-10-07T08:08:09.665Z] CLI Version:   7.4.0
+[debug] [2019-10-07T08:08:09.665Z] Platform:      win32
+[debug] [2019-10-07T08:08:09.665Z] Node Version:  v10.16.1
+[debug] [2019-10-07T08:08:09.682Z] Time:          Mon Oct 07 2019 13:38:09 GMT+0530 (India Standard Time)
+[debug] [2019-10-07T08:08:09.682Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T08:08:09.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T08:08:09.727Z] > authorizing via signed-in user
+[debug] [2019-10-07T08:08:09.727Z] [iam] checking project vue-real-time-chat-4eb35 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-07T08:08:09.729Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-real-time-chat-4eb35:testIamPermissions  
+
+[debug] [2019-10-07T08:08:11.626Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:08:11.629Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-real-time-chat-4eb35  
+ 
+[debug] [2019-10-07T08:08:12.177Z] <<< HTTP RESPONSE 200
+[warn] !  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'vue-real-time-chat-4eb35'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-real-time-chat-4eb35/overview
+[debug] [2019-10-07T08:08:15.804Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-10-07T08:09:29.225Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T08:09:29.231Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:firechat-rt --debug
+[debug] [2019-10-07T08:09:29.246Z] CLI Version:   7.4.0
+[debug] [2019-10-07T08:09:29.246Z] Platform:      win32
+[debug] [2019-10-07T08:09:29.247Z] Node Version:  v10.16.1
+[debug] [2019-10-07T08:09:29.250Z] Time:          Mon Oct 07 2019 13:39:29 GMT+0530 (India Standard Time)
+[debug] [2019-10-07T08:09:29.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T08:09:29.270Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T08:09:29.287Z] > authorizing via signed-in user
+[debug] [2019-10-07T08:09:29.289Z] [iam] checking project vue-real-time-chat-4eb35 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-07T08:09:29.296Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-07T08:09:29.325Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-07T08:09:29.747Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:09:29.768Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-real-time-chat-4eb35:testIamPermissions  
+
+[debug] [2019-10-07T08:09:31.690Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:09:31.694Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-real-time-chat-4eb35  
+ 
+[debug] [2019-10-07T08:09:32.416Z] <<< HTTP RESPONSE 200
+[warn] !  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'vue-real-time-chat-4eb35'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-real-time-chat-4eb35/overview
+[debug] [2019-10-07T08:09:37.730Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-10-07T08:12:59.415Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T08:12:59.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:firechat-rt
+[debug] [2019-10-07T08:12:59.419Z] CLI Version:   7.4.0
+[debug] [2019-10-07T08:12:59.419Z] Platform:      win32
+[debug] [2019-10-07T08:12:59.420Z] Node Version:  v10.16.1
+[debug] [2019-10-07T08:12:59.437Z] Time:          Mon Oct 07 2019 13:42:59 GMT+0530 (India Standard Time)
+[debug] [2019-10-07T08:12:59.438Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T08:12:59.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T08:12:59.454Z] > authorizing via signed-in user
+[debug] [2019-10-07T08:12:59.454Z] [iam] checking project vue-real-time-chat-4eb35 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-07T08:12:59.456Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-real-time-chat-4eb35:testIamPermissions  
+
+[debug] [2019-10-07T08:13:01.374Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:13:01.380Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-real-time-chat-4eb35  
+ 
+[debug] [2019-10-07T08:13:02.024Z] <<< HTTP RESPONSE 200
+[warn] !  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'vue-real-time-chat-4eb35'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-real-time-chat-4eb35/overview
+[debug] [2019-10-07T08:13:06.287Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-10-07T08:15:12.839Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T08:15:12.843Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:firechat-rt
+[debug] [2019-10-07T08:15:12.844Z] CLI Version:   7.4.0
+[debug] [2019-10-07T08:15:12.844Z] Platform:      win32
+[debug] [2019-10-07T08:15:12.844Z] Node Version:  v10.16.1
+[debug] [2019-10-07T08:15:12.846Z] Time:          Mon Oct 07 2019 13:45:12 GMT+0530 (India Standard Time)
+[debug] [2019-10-07T08:15:12.847Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T08:15:12.862Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T08:15:12.863Z] > authorizing via signed-in user
+[debug] [2019-10-07T08:15:12.863Z] [iam] checking project vue-real-time-chat-4eb35 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-07T08:15:12.865Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-real-time-chat-4eb35:testIamPermissions  
+
+[debug] [2019-10-07T08:15:13.390Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:15:13.394Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-real-time-chat-4eb35  
+ 
+[debug] [2019-10-07T08:15:13.944Z] <<< HTTP RESPONSE 200
+[warn] !  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'vue-real-time-chat-4eb35'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-real-time-chat-4eb35/overview
+[debug] [2019-10-07T08:15:17.151Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-10-07T08:21:21.760Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T08:21:21.764Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:firechat-rt
+[debug] [2019-10-07T08:21:21.764Z] CLI Version:   7.4.0
+[debug] [2019-10-07T08:21:21.764Z] Platform:      win32
+[debug] [2019-10-07T08:21:21.765Z] Node Version:  v10.16.1
+[debug] [2019-10-07T08:21:21.782Z] Time:          Mon Oct 07 2019 13:51:21 GMT+0530 (India Standard Time)
+[debug] [2019-10-07T08:21:21.782Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T08:21:21.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T08:21:21.820Z] > authorizing via signed-in user
+[debug] [2019-10-07T08:21:21.820Z] [iam] checking project vue-real-time-chat-4eb35 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-07T08:21:21.823Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vue-real-time-chat-4eb35:testIamPermissions  
+
+[debug] [2019-10-07T08:21:23.782Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T08:21:23.785Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vue-real-time-chat-4eb35  
+ 
+[debug] [2019-10-07T08:21:24.274Z] <<< HTTP RESPONSE 200
+[warn] !  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'vue-real-time-chat-4eb35'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/vue-real-time-chat-4eb35/overview
+[debug] [2019-10-07T08:21:28.278Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\RAHUL TRIVEDI\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
