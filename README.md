@@ -1,6 +1,6 @@
 # vue-real-time-chat
 
-> A Vue.js project
+> A real-time chatting system made using Vue.js and real-time Firebase database.
 
 ## Build Setup
 
